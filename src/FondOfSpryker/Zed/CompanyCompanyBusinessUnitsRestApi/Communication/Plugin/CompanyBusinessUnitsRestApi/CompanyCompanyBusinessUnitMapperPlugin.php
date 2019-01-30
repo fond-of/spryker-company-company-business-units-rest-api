@@ -21,7 +21,7 @@ class CompanyCompanyBusinessUnitMapperPlugin extends AbstractPlugin implements C
      * @param \Generated\Shared\Transfer\RestCompanyBusinessUnitsRequestAttributesTransfer $restCompanyBusinessUnitsRequestAttributesTransfer
      * @param \Generated\Shared\Transfer\CompanyBusinessUnitTransfer $companyBusinessUnitTransfer
      *
-     * @return void
+     * @return \Generated\Shared\Transfer\CompanyBusinessUnitTransfer
      */
     public function map(
         RestCompanyBusinessUnitsRequestAttributesTransfer $restCompanyBusinessUnitsRequestAttributesTransfer,
